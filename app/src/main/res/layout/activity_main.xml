@@ -81,18 +81,24 @@
         android:weightSum="2">
 
         <Button
+
+            style="@android:style/ButtonBar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="+"
+            android:layout_margin="8dp"
             android:onClick="sumFunc"
             android:textSize="20dp" />
 
         <Button
+
+            style="@android:style/ButtonBar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="-"
+            android:layout_margin="8dp"
             android:onClick="subFunc"
             android:textSize="20dp" />
     </LinearLayout>
@@ -108,18 +114,25 @@
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:text="X"
+            style="@android:style/ButtonBar"
             android:onClick="multFunc"
             android:textSize="20dp" />
 
         <Button
+
+            style="@android:style/ButtonBar"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="divFunc"
             android:text="/"
-            style="@android:bu"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+
             android:textSize="20dp" />
     </LinearLayout>
 </LinearLayout>
